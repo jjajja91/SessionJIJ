@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'GmarketSansBold';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#board {
+	background-color: #4CAF50;
+}
+
+.boardA, .listBtn {
+	font-size: 15px;
+	margin-left: 5px;
+	color: white;
+	padding: 5px 10px;
+	text-decoration: none;
+	background: gray;
+	border: none;
+	font-family: 'GmarketSansBold';
+	outline: none;
+}
+
+#btnDiv button {
+	font-size: 15px;
+	margin-left: 5px;
+	color: white;
+	padding: 5px 10px;
+	text-decoration: none;
+	background: gray;
+	border: none;
+	font-family: 'GmarketSansBold';
+	outline: none;
+}
+
+#btnDiv button:hover{
+	background-color: #111;
+}
+
+.boardA:hover, .listBtn:hover {
+	background-color: #111;
+}
+
+table {
+	margin-top: 10px;
+	margin: 5px;
+	width: 50%;
+	border: 1px solid #444444;
+}
+
+th, td {
+	border: 1px solid #444444;
+}
+
+#infoDiv {
+	justify-content: left;
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#infoDiv input {
+	font-size: 20px;
+	padding-left: 10px;
+	margin-right: 10px;
+	font-family: 'GmarketSansLight';
+	width: 100px;
+	border: none;
+	border-bottom: 2px solid gray;
+	outline: none;
+}
+
+#infoDiv label {
+	border-bottom: 2px solid gray;
+}
+
+#contents {
+	resize: none;
+	font-family: 'GmarketSansLight';
+	font-size: 20px;
+	outline: none;
+}

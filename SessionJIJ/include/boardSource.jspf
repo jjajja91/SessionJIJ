@@ -1,0 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+	<h3><%=id%>님!! 게시판에 오신 것을 환영합니다!!</h3>
+	<a class="boardA" href="/IkjaeWebSite/boardWrite.jsp">글작성</a>
+	<a class="boardA" href="/IkjaeWebSite/boardList.jsp">글목록</a>
